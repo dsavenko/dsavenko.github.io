@@ -1,0 +1,4 @@
+name: Dmitry Savenko Personal Site
+markdown: redcarpet
+pygments: true
+permalink: /:categories/:title

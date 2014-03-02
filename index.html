@@ -1,104 +1,18 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]>
-<html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]>
-<html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]>
-<html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en"> <!--<![endif]-->
-<head>
+---
+layout: main
+title: Dmitry Savenko
+---
 
-    <!-- Basic Page Needs
-  ================================================== -->
-    <meta charset="utf-8">
-    <title>Dmitry Savenko</title>
-    <meta name="description" content="Dmitry Savenko - Personal Web Site">
-    <meta name="author" content="Dmitry Savenko">
+<h3>About</h3>
 
-    <!-- Mobile Specific Metas
-  ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<p>
+    I work at <a href="http://xored.com">Xored</a> and mostly specialize in Java.
+    Some of my open source projects:
+</p>
 
-    <!-- CSS
-  ================================================== -->
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+{% for post in site.categories['project'] %}
+<h4><a href="{{ post.proj_url }}">{{ post.title }} <i class="fa fa-mail-forward"></i></a>
+</h4>
 
-    <link rel="stylesheet" href="stylesheets/base.css">
-    <link rel="stylesheet" href="stylesheets/skeleton.css">
-    <link rel="stylesheet" href="stylesheets/layout.css">
-    <link rel="stylesheet" href="stylesheets/custom.css">
-
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <!-- Favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
-
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
-    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png"/>
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png"/>
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"/>
-    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png"/>
-    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-60x60.png"/>
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-120x120.png"/>
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-76x76.png"/>
-    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-152x152.png"/>
-
-    <meta name="msapplication-square70x70logo" content="images/smalltile.png"/>
-    <meta name="msapplication-square150x150logo" content="images/mediumtile.png"/>
-    <meta name="msapplication-wide310x150logo" content="images/widetile.png"/>
-    <meta name="msapplication-square310x310logo" content="images/largetile.png"/>
-
-</head>
-<body>
-
-
-<!-- Primary Page Layout
-================================================== -->
-
-<!-- Delete everything in this .container and get started on your own site! -->
-
-<div class="container">
-
-    <div class="sixteen columns" style="margin-top: 40px;">
-        <div class="six columns">
-            <h1 class="remove-bottom">Dmitry Savenko</h1>
-            <h5>Software Engineer</h5>
-        </div>
-        <div class="ten columns offset-by-six" style="margin-top: 20px;">
-            <h3>About</h3>
-
-            <p>
-                I work at <a href="http://xored.com" target="_blank">Xored</a> and mostly specialize in Java.
-                Some of my open source projects:
-            </p>
-
-            <h5><a href="https://github.com/xored/integrity-maven-plugin" target="_blank">Integrity Maven Plugin <i
-                    class="fa fa-mail-forward"></i></a>
-            </h5>
-
-            <p>
-                Maven plugin, which helps to ensure build integrity in case of a large multi-module project with branchy
-                structure.
-            </p>
-
-            <h5><a href="https://github.com/xored/peg" target="_blank">PEG Parser <i class="fa fa-mail-forward"></i></a>
-            </h5>
-
-            <p>
-                PEG parser written in Fantom.
-            </p>
-        </div>
-    </div>
-
-</div>
-<!-- container -->
-
-
-<!-- End Document
-================================================== -->
-</body>
-</html>
+{{ post.content }}
+{% endfor %}
