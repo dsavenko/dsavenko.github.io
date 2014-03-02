@@ -3,16 +3,30 @@ layout: main
 title: Dmitry Savenko
 ---
 
-<h3>About</h3>
+<div class="one-third column">
+    <h3>About</h3>
 
-<p>
-    I work at <a href="http://xored.com">Xored</a> and mostly specialize in Java.
-    Some of my open source projects:
-</p>
+    <p>
+        I work at <a href="http://xored.com">Xored</a> and mostly specialize in Java.
+        Get in touch with me:
+    </p>
 
-{% for post in site.categories['project'] %}
-<h4><a href="{{ post.proj_url }}">{{ post.title }} <i class="fa fa-mail-forward"></i></a>
-</h4>
+    <p>
+        <a id="ds-ml"><i class="fa fa-envelope-o fa-2x fa-fw"></i></a>
+        <a href="http://www.linkedin.com/in/dsavenko"><i class="fa fa-linkedin fa-2x fa-fw"></i></a>
+        <a href="https://github.com/dsavenko"><i class="fa fa-github fa-2x fa-fw"></i></a>
+        <a href="https://bitbucket.org/dsavenko"><i class="fa fa-bitbucket fa-2x fa-fw"></i></a>
+    </p>
+</div>
 
-{{ post.content }}
-{% endfor %}
+<div class="two-thirds column">
+    <h3>Projects</h3>
+
+    {% for post in site.categories['project'] %}
+    <h4><a href="{{ post.proj_url }}">{{ post.title }} <i class="fa fa-mail-forward"></i></a>
+    </h4>
+
+    {{ post.content }}
+    {% endfor %}
+</div>
+
