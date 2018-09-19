@@ -1,4 +1,6 @@
 name: Dmitry Savenko Personal Site
 markdown: redcarpet
-pygments: true
+highlighter: rouge
+lsi: false
 permalink: /:categories/:title
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
