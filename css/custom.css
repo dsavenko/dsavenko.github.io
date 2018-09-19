@@ -1,9 +1,9 @@
-body {
-    font: 14px/21px 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+body, p {
+    font: 16px/22px 'Droid Serif', Georgia, serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Droid Serif', Georgia, serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .ds-social > i {
@@ -12,4 +12,13 @@ h1, h2, h3, h4, h5, h6 {
 
 h4 > a {
     text-decoration: none;
+}
+
+summary p {
+    display: list-item;
+    font-size: 3.0rem;
+    line-height: 1.3;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    cursor: pointer;
+    border-bottom: 1px solid black;
 }
