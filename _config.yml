@@ -1,5 +1,4 @@
 name: Dmitry Savenko Personal Site
-markdown: redcarpet
 highlighter: rouge
 lsi: false
 permalink: /:categories/:title
