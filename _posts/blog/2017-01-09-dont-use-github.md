@@ -22,7 +22,7 @@ Linus bestowed Git upon us so we can keep many copies of our work and never lose
 
 But retaliation will come. This [happened][codespaces] [before][murder], this will happen again. You think GitHub is much stronger, than CodeSpaces? You can't know. CodeSpaces had prospered for 7 years before the sudden instant demise. GitHub is only 8.
 
-![I accidentally all your data. Is that bad?](/assets/img/i-accidentally-all-your-data.png)
+![I accidentally all your data. Is that bad?](/img/i-accidentally-all-your-data.png)
 
 You, management people! Who owns your assets, you or GitHub? The code is distributed across developers and CI machines? OK, but what about issues, pull requests, tech docs, tutorials, etc? Aren’t those your assets, too?
 

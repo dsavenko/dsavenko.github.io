@@ -6,7 +6,7 @@ readon: I've got a recipe
 categories: blog
 ---
 
-## Joy of bug fixing
+### Joy of bug fixing
 
 Have you ever met a programmer, who when asked “What would you like to do?” would answer “Fix bugs”? I haven’t. Everyone wants to develop new features, ideally---new projects from scratch. 
 
@@ -14,7 +14,7 @@ There is a teeny-tiny problem with it. Most programmers support big projects wit
 
 Therefore, most programmers are not satisfied with their work. What to do? I don’t know, where to get new projects for everyone. But I know, how to work on old projects with pleasure. I’ve been using this technique for a long time, and I’m not the only one, who uses it. So, I can say for sure, that it works (though, perhaps, not for everyone). Possible side effect is code quality increase.
 
-## Welcome to the threshold
+### Welcome to the threshold
 
 We should start with the question “What is a product?”. Take, for instance, a major version of a project your team has been working on for some time. Obviously, it is a product. But why? Why no one called it a product a month ago, when there were two less features and two hundred more bugs? It still has bugs, and some features had to be moved to subsequent releases. Did it become a product solely because the deadline is reached? No, there was no product a month ago anyway. There have to be something else…
 
@@ -69,7 +69,7 @@ Do you think about such things, when you’re doing your work? No? Then it’s t
 
 > You don’t just write code. You aspire to the readiness threshold of small products!
 
-## Do not cross the threshold!
+### Do not cross the threshold!
 
 There are examples, when things, which seem obviously not ready (plenty of bugs, lack of features, no usability), took over the world or became industry standards. Why did this happen? Simply because these products were in fact ready. Behind a lot of problems, their creators were able to see, that the threshold is reached, and it is pointless or even harmful to go further. 
 
@@ -83,7 +83,7 @@ The same is true for small products.
 
 **In the stopwatch:** stored lap records in database, made them retrievable by the time range and duration, allowed users to set background picture and sound to play on pressing Lap button? Great! It’s a pity, that the best case is that no one will know about it. But everyone will wonder, why your app is five times larger and loads three times slower, than the competitors. The worst case is that your app will freeze for 200ms on pressing Lap button and, therefore, will be completely useless.
 
-## Can you be more specific?
+### Can you be more specific?
 
 So, what is a product, how to determine readiness threshold? If I knew, I’d lead the Forbes list, build my own city on Mars and hire Elon Musk to manage it. This question belongs to the creative part of programming. Usually you can only try to predict the answer, and see later, if your guess was right. 
 

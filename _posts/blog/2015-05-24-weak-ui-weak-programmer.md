@@ -6,7 +6,7 @@ readon: I have bad news for you
 categories: blog
 ---
 
-![UI facepalm](/assets/img/weak-ui.png)
+![UI facepalm](/img/weak-ui.png)
 
 Why do so many programmers hate UI work? Because it is tedious. Especially, for the Web, but other types of UI are only slightly easier. Layouts, margins, paddings — neverending stream of little tweaks to make it look OK on all sane environments, and somehow this freaking button sometimes overlaps that input field. Rrrr! And yes, it should not hang on button clicks, which means a lot of asynchronous programming, which is a nightmare.
 

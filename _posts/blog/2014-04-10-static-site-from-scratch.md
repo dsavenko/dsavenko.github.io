@@ -8,7 +8,7 @@ categories: blog
 
 I was gonna make my own site, with CV and projects. No blog. Why it ended up with a blog (and without a CV) is a different story, I'll tell it later. By the way, for the same reasons I couldn't just use WordPress (I didn't realise it back then, just wanted everything to be simple, and what is simpler than static pages?). But enough philosophy for today! 
 
-## Appearance
+### Appearance
 
 By far the hardest part is design. A professional developer has few options here:
 
@@ -35,7 +35,7 @@ I’ve found a theme I like (kind of). I still needed to do a lot of tuning (thi
 * [Google Fonts](https://www.google.com/fonts) --- for fonts
 * [Adobe Kuler](https://kuler.adobe.com) --- for colours 
 
-## Engine and hosting
+### Engine and hosting
 
 Of course, static pages ought to be generated dynamically. The answer is [Jekyll](http://jekyllrb.com). There are other generators, but who cares --- Jekyll is great! As for hosting, there are [few options](http://jekyllrb.com/docs/deployment-methods/), the most reasonable ones:
 
@@ -48,7 +48,7 @@ Here is a good article: “[Static website on S3, CloudFront and Route 53, the r
 
 This command synchronises site with S3 bucket, and that’s all I need ("s3_website" failed to build on my Macbook). By the way, at first I tried to use my registrar’s DNS instead of Route 53. But performance tests showed, that DNS request takes about half of the total loading time. It spoiled my mood, so I decided, that 50c/month is affordable. 
 
-## Comments
+### Comments
 
 [A Blog Without Comments Is Not a Blog](http://blog.codinghorror.com/a-blog-without-comments-is-not-a-blog/) (actually, I've never fully read this post, because the message is obvious to me, and it is boring to read about obvious things).
 
