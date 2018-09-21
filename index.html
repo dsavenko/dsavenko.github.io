@@ -38,17 +38,24 @@ title: Dmitry Savenko
         $(".project").show()
         clearButs()
         $(allBut).addClass("button-primary")
+        location.hash = ''
     }
     blogBut.onclick = function() {
         $(".blog").show()
         $(".project").hide()
         clearButs()
         $(blogBut).addClass("button-primary")
+        location.hash = '#blog'
     }
     projectBut.onclick = function() {
         $(".blog").hide()
         $(".project").show()
         clearButs()
         $(projectBut).addClass("button-primary")
+        location.hash = '#project'
     }
+    $(document).ready(function() {
+        if (location.hash === '#blog') $(blogBut).click()
+        if (location.hash === '#project') $(projectBut).click()
+    })
 </script>
