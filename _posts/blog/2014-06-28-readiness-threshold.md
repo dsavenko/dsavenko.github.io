@@ -4,6 +4,7 @@ title: Readiness Threshold
 catch: Have you ever wondered, how to make your bug fixing duties a tad funnier?
 readon: I've got a recipe
 categories: blog
+type: blog
 ---
 
 ### Joy of bug fixing

@@ -4,6 +4,7 @@ title: Don't use GitHub
 catch: You probably like GitHub. We all do. But does your fondness go
 readon: too far?
 categories: blog
+type: blog
 ---
 
 OK, use it. But only as your in-house Git servers' mirror, or for throwaways with no real value. And only use it as Git hosting, don't touch wiki, PRs or issue tracking. 

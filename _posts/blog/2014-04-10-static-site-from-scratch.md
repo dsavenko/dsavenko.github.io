@@ -4,6 +4,7 @@ title: Static site from scratch
 catch: Would you like to laugh at me, because I'm so pigheaded, that just didn't want to use WordPress and gave myself a lot of trouble? 
 readon: Go ahead
 categories: blog
+type: blog
 ---
 
 I was gonna make my own site, with CV and projects. No blog. Why it ended up with a blog (and without a CV) is a different story, I'll tell it later. By the way, for the same reasons I couldn't just use WordPress (I didn't realise it back then, just wanted everything to be simple, and what is simpler than static pages?). But enough philosophy for today! 

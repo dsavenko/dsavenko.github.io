@@ -4,6 +4,7 @@ categories: blog
 title: "Project: Moy.Design"
 catch: A browser plugin to make web pages lightweight, more readable and more user-friendly.
 readon: Read more.
+type: project
 ---
 
 **[Moy.Design](https://moy.design)** (or **Moy** for short) browser plugin allows you to change the appearance of your favorite websites. It serves a number of purposes:

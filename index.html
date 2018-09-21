@@ -4,10 +4,51 @@ title: Dmitry Savenko
 ---
 
 <div class="row">
+    <button id="allBut" class="button-primary">All</button>
+    <button id="blogBut">Blog</button>
+    <button id="projectBut">Project</button>
+</div>
+
+<div class="row">
     <div class="twelve columns">
         {% for post in site.categories['blog'] %}
-            <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-            <p>{{ post.catch }} <a href="{{ post.url }}">{{ post.readon }}</a></p>
+            <div class="{{ post.type }}">
+                <span class="date">{{ post.date | date_to_string }}</span>
+                <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                <p>{{ post.catch }} <a href="{{ post.url }}">{{ post.readon }}</a></p>
+            </div>
         {% endfor %}
     </div>
 </div>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+
+<script>
+    function clearButs() {
+        $(allBut).removeClass("button-primary")
+        $(blogBut).removeClass("button-primary")
+        $(projectBut).removeClass("button-primary")
+    }
+
+    allBut.onclick = function() {
+        $(".blog").show()
+        $(".project").show()
+        clearButs()
+        $(allBut).addClass("button-primary")
+    }
+    blogBut.onclick = function() {
+        $(".blog").show()
+        $(".project").hide()
+        clearButs()
+        $(blogBut).addClass("button-primary")
+    }
+    projectBut.onclick = function() {
+        $(".blog").hide()
+        $(".project").show()
+        clearButs()
+        $(projectBut).addClass("button-primary")
+    }
+</script>

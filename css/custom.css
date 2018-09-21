@@ -2,7 +2,7 @@ body, p {
     font: 16px/26px 'Droid Serif', Georgia, serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, button {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -39,3 +39,9 @@ blockquote p {
     max-width: 80%;
   }
 } 
+
+.date {
+  font-style: italic;
+  color: #888;
+  font-size: smaller;
+}

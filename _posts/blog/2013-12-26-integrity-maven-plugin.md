@@ -4,6 +4,7 @@ categories: blog
 title: "Project: Integrity Maven Plugin"
 catch: Maven plugin, which helps to ensure build integrity in case of a large multi-module project with branchy structure.
 readon: Read more.
+type: project
 ---
 
 [Integrity Maven plugin](https://github.com/xored/integrity-maven-plugin) helps you to ensure build integrity in case of a large multi-module project with branchy structure.

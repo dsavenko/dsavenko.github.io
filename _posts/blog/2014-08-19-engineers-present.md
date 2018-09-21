@@ -4,6 +4,7 @@ title: Engineers present
 catch: Are you an engineer, and would like to give a talk?
 readon: This may be helpful
 categories: blog
+type: blog
 ---
 
 [Xored](http://xored.com) has always been a small company, where everyone knows each other. Well, not anymore. Recent couple of years we’ve grown to a point, where I’ve never seen some colleagues. We used to have 2-3 projects, now we have dozens of them. Needn’t to say, that most people have little to no idea, what the others are doing. This is bad for company culture, knowledge reuse, and just dreary. To fight it, I organise regular meetings, where people present their work to the others. Currently, it takes the form of biweekly talks, each of which is a review of some product, that we’re doing. Quite unimaginatively, they’re called “What we’re doing” (in Russian: “Что мы делаем” = ЧМД). This is the last one, which was at Friday (look, how excited those girls are):

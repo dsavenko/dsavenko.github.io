@@ -4,6 +4,7 @@ title: Weak UI, weak programmer
 catch: Don’t like making UIs and, as a result, suck at it?
 readon: I have bad news for you
 categories: blog
+type: blog
 ---
 
 ![UI facepalm](/img/weak-ui.png)
