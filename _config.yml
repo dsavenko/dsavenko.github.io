@@ -3,3 +3,5 @@ highlighter: rouge
 lsi: false
 permalink: /:categories/:title
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+plugins:
+  - jekyll-feed
