@@ -5,6 +5,7 @@ title: dsavenko
 
 <div class="row">
     <div class="twelve columns">
+        <h5>Software Developer</h5>
         <h4>Projects</h4>
     </div>
 </div>
@@ -30,6 +31,12 @@ title: dsavenko
                 <a href="https://bitbucket.org/dsavenko"><i class="fa fa-bitbucket fa-fw"></i></a>
             </span>
         </h5>
+        <h6><a href="index_ru.html">(на русском / in Russian)</a></h6>
     </div>
 </div>
 
+<script>
+    if (navigator.language.startsWith("ru") && location.pathname == "/") {
+        location.href="/index_ru.html"
+    }    
+</script>
