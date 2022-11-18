@@ -1,5 +1,6 @@
 
-# Procrastinator privacy policy
+Procrastinator privacy policy
+=============================
 
 Procrastinator does not collect, transfer or utilize users' personal data in any way.
 
