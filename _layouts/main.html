@@ -45,6 +45,15 @@
 
     <div class="row">
         <div class="twelve columns" style="margin-top: 40px;">
+            {% if page.lang_switch %}
+                <a href="{{ page.lang_switch }}" style="text-decoration: none">
+                    {% if page.lang_switch_to == "ru" %}
+                        (in Russian / по-русски)
+                    {% else %}
+                        (in English / по-английски)
+                    {% endif %}
+                </a>
+            {% endif %}
             <a href="/" style="text-decoration: none">
                 <h1>dsavenko</h1>
             </a>
@@ -54,6 +63,14 @@
     {{ content }}
 
 </div>
+
+{% if page.lang_auto_redirect %}
+<script>
+    if (navigator.language.startsWith("ru") && location.pathname == "/") {
+        location.href="{{ page.lang_switch }}"
+    }    
+</script>
+{% endif %}
 
 </body>
 </html>
